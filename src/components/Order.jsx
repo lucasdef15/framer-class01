@@ -35,7 +35,7 @@ const childVariants = {
   },
 };
 
-const Order = ({ pizza, setShowModal, showModal }) => {
+const Order = ({ pizza, setShowModal }) => {
   useEffect(() => {
     setTimeout(() => {
       setShowModal(true);
